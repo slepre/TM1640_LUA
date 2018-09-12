@@ -39,7 +39,7 @@ function TM1640_Byte2(data)
 end
 ```
 
-Still not sure which is the best approach in this case.
+Still not sure which is the best method to manage all that, see the _TripleMonster_ code example.
 With everything hardcoded as per the above, I am able to play a unique Monster Face on each display.
 
 
