@@ -1,4 +1,3 @@
-```LUA
 -- Pin D7 is used for DIN, Shared
 -- Pin D6 is used for the Left TM1640
 -- Pin D5 is used for the Center TM1640
@@ -142,4 +141,3 @@ TM1640_Brightness3(1)
 mytimer=tmr.create()
 mytimer:register(250, 0, function() TripleMonster() end)
 mytimer:start()
-```
