@@ -35,4 +35,4 @@ mytimer=tmr.create()
 mytimer:register(40, 1, function() FrameRandomMonster() end)
 
 mytimer:start()
-'''
+```
