@@ -21,6 +21,8 @@ _Since the center unit is a 'pass through' I assigned
         **D8** to the **RIGHT** side TM1640
 It does require to cut a few lines and add two straps on the Tripler Base. Details to follow.
 
+[[https://github.com/slepre/TM1640_LUA/blob/master/WemosTriple2.jpg]]
+
 The only change is that we need to change the SCK pin we use in the TM1640_Byte(data) function:
 
 ```LUA
