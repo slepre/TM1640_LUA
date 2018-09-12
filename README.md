@@ -22,7 +22,8 @@ _Since the center unit is a 'pass through' I assigned
 It does require to cut a few lines and add two straps on the Tripler Base. Details to follow.
 
 The only change is that we need to change the SCK pin we use in the TM1640_Byte(data) function:
-'''
+
+```LUA
 function TM1640_Byte2(data)
     for i = 1,8 do
         gpio_write(6,0) -- the change is here, this variant bangs SCK on pin 6
@@ -36,7 +37,8 @@ function TM1640_Byte2(data)
         data=bit.arshift(data, 1)
     end
 end
-'''
+```
+
 Still not sure which is the best approach in this case.
 With everything hardcoded as per the above, I am able to play a unique Monster Face on each display.
 
