@@ -2,6 +2,8 @@
 LUA Based driver for TM1640 based displays, namely the WEMOS Matrix LED Shield
 (https://wiki.wemos.cc/products:d1_mini_shields:matrix_led_shield) 
 
+![alt text](https://github.com/slepre/TM1640_LUA/blob/master/Monster2.jpg)
+
 With special thanks to Markus Gritsch for his BIT-BANGING, PERFORMANCE, AND LUA TABLE LOOKUPS article which gave me the solution.
 https://www.esp8266.com/viewtopic.php?f=24&t=832
 
@@ -9,8 +11,6 @@ For performance purposes (see above) the code runs on pins D5 for SCLK and D7 fo
 You will need the BIT Module enabled in your LUA firmware.
 
 The attached init.lua is just to demonstrate the behavior.
-
-###### UPDATE
 
 As I also have a WEMOS Tripler Base (https://wiki.wemos.cc/products:d1_mini_shields:tripler_base) as well as two other Matrix LED Shields I thought I could probably drive all three displays from a single ESP-8266.
 
