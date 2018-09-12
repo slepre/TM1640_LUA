@@ -11,7 +11,7 @@ You will need the BIT Module enabled in your LUA firmware.
 The attached init.lua is just to demonstrate the behavior.
 
 I was able to sustain 40ms refresh rate on a D1 MINI PRO with the following change to the init.lua code:
-
+```LUA
 function FrameRandomMonster()
 
      local x = node.random(1,table.getn(tmonster))
@@ -35,6 +35,4 @@ mytimer=tmr.create()
 mytimer:register(40, 1, function() FrameRandomMonster() end)
 
 mytimer:start()
-
-
-Enjoy!
+'''
